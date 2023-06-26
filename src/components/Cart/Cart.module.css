@@ -1,5 +1,5 @@
 .cart_container {
-  height: calc(100vh - 218px);
+  min-height: calc(100vh - 218px);
   width: auto;
   display: flex;
   flex-direction: column;
@@ -16,8 +16,8 @@
 .cart_cost {
   width: auto;
   height: 68px;
-  top: 902px;
   padding: 24px;
+  margin-top: 16px;
   border-radius: 8px;
   background-color: #FFFFFF;
 }

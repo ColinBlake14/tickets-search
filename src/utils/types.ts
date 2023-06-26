@@ -48,3 +48,13 @@ interface CartElemI extends MovieCutI {
   count: number;
 }
 
+type TModal = {
+  header?: string,
+  children: React.ReactNode,
+  onClose: () => void
+}
+
+type TModalOverlay = {
+  onClose: () => void,
+  children: React.ReactNode
+}

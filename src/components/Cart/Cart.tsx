@@ -7,7 +7,6 @@ import { selectCartProducts, selectProductsAmount } from "@/redux/features/cart/
 import { LoadingFiller } from "../Loading-filler/Loading-filler";
 import { FilmCard } from "../Films-list/Films-list";
 
-
 export const Cart: FunctionComponent = () => {
   const cartData: Array<CartElemI> = useSelector(state => selectCartProducts(state));
   const productAmount: number = useSelector(state => selectProductsAmount(state));
@@ -34,6 +33,5 @@ export const Cart: FunctionComponent = () => {
         </div>
       </div>
     </div>
-    
   );
 }

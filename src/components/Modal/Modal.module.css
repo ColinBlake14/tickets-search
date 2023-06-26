@@ -4,7 +4,7 @@
   cursor: pointer;
 }
 
-.modal__overlay {
+.modal_overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -34,7 +34,7 @@
   z-index: 101;
 }
 
-.modal__feed {
+.modal_feed {
   max-width: 720px;
   display: flex;
   flex-direction: column;
@@ -62,10 +62,3 @@
   text-align: left;
 }
 
-.closeIcon__box {
-  width: 720px;
-  height: 120px;
-  display: flex;
-  align-items:flex-start;
-  justify-content: flex-end;
-}

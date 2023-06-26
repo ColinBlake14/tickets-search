@@ -21,8 +21,9 @@ export const SearchFilter: FunctionComponent = () => {
 
           <select name="jenre">
               <option value="default">Выберите жанр</option>
-              <option value="lion">Lion</option>
-              <option value="lion">Lion</option>
+              <option value="lion">Жанр 1</option>
+              <option value="lion">Жанр 2</option>
+              <option value="lion">Жанр 3</option>
           </select>
         </div>
         
@@ -32,8 +33,9 @@ export const SearchFilter: FunctionComponent = () => {
 
           <select name="cinema">
               <option value="default">Выберите кинотеатр</option>
-              <option value="lion">Lion</option>
-              <option value="lion">Lion</option>
+              <option value="lion">Кинотеатр 1</option>
+              <option value="lion">Кинотеатр 2</option>
+              <option value="lion">Кинотеатр 3</option>
           </select>
         </div>
       </div>

@@ -12,7 +12,7 @@ export const Header: FunctionComponent = () => {
       <nav className={styles.container}>
         <Link href="/">
           <div className={styles.name_container}>
-            Билетпоиск
+            Билетопоиск
           </div>
         </Link>
         

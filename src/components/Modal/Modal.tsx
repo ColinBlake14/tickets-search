@@ -4,17 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
 
-type TModal = {
-  header?: string,
-  children: React.ReactNode,
-  onClose: () => void
-}
-
-type TModalOverlay = {
-  onClose: () => void,
-  children: React.ReactNode
-}
-
 export const Modal = ({header, children, onClose}: TModal) => {
   const ref = useRef<Element | null>(null);
   const [mounted, setMounted] = useState(false)
@@ -80,7 +69,7 @@ const ModalOverlay = ({ onClose, children }: TModalOverlay) => {
   };
 
   return (
-    <div onClick={handleOverlay} className={styles.modal__overlay}>
+    <div onClick={handleOverlay} className={styles.modal_overlay}>
       {children}
     </div>
   );
