@@ -1,5 +1,11 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+'use client'
+
+import './globals.css';
+import { Inter } from 'next/font/google';
+import { StoreProvider } from "@/redux/StoreProvider";
+import { Header } from '@/components/Header/Header';
+import styles from "./page.module.css";
+import { Footer } from '@/components/Footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +21,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <StoreProvider>
+          <Header/>
+          <div id="modalRoot"></div>
+
+          <main className={styles.main_container}>
+            {children}
+          </main>
+
+          <Footer/>
+        </StoreProvider>
+      </body>
     </html>
   )
 }

@@ -1,0 +1,29 @@
+.button_group {
+  width: 68px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.orange_button {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  background: #FF5500;
+}
+
+.orange_blocked_button {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  background: #FFA375;
+}

@@ -1,0 +1,49 @@
+.filter_container {
+  width: 408px;
+  height: calc(100vh - 218px);
+  padding: 24px;
+  position: fixed;
+  top: 108px;
+  left: 32px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #FFFFFF;
+}
+
+.filter_title {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.filter_group {
+  width: 360px;
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input_container {
+  width: 360px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input_title {
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}

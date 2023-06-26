@@ -1,0 +1,15 @@
+.loading_container {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_text {
+  font-family: var(--font-roboto);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}

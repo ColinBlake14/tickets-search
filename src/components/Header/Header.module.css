@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 84px;
+
+  background: #333333;
+}
+
+.name_container {
+  width: 241px;
+  height: 36px;
+
+  font-family: var(--font-roboto);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.image_container {
+  width: 32px;
+  height: 32px;
+}
+
+.basket_container {
+  width: 68px;
+  height: 32px;
+  gap: 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tickets_counter {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FF5500;
+}
+
+.hidden {
+  width: 28px;
+  height: 28px;
+
+  visibility: hidden;
+}
+
+.tickets_counter_text {
+  font-family: var(--font-roboto);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+}

@@ -1,0 +1,39 @@
+.cart_container {
+  height: calc(100vh - 218px);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart_films_container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cart_cost {
+  width: auto;
+  height: 68px;
+  top: 902px;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.cost_container {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cost_text {
+  font-family: var(--font-roboto);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
